@@ -141,7 +141,12 @@ a:hover, a:active {
 }
 
 .top-sidebar img {
+	padding: 2%;
 	height: auto;
+}
+
+.top-sidebar a:hover {
+	background-color: white;
 }
 
 .middle-sidebar {
