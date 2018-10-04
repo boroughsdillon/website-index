@@ -58,29 +58,26 @@ a:hover, a:active {
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
+	position: relative;
+	display: inline-block;
 	background-color: gray;
 	border-radius: 5px;
-	z-index: 1;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-.dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: block;
-	float: left;
+.dropdown-content {
+	position: absolute;
+	display: none;
+	background-color: gray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
+	z-index: 1;
 }
 
 
@@ -188,6 +185,11 @@ a:hover, a:active {
 }
 
 
+
+
+
+
+/*MEDIA*/
 @media only screen and (min-width: 150px) and (max-width: 600px)
 {
 	.body {
@@ -233,7 +235,7 @@ a:hover, a:active {
 	display: none;
 	}
 
-	.topcontent {
+	.textcontent {
 	background-color: white;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -242,15 +244,17 @@ a:hover, a:active {
 	margin-top: 2%;
 	margin-bottom: 4%;
 	}
-
-	.bottomcontent {
-	margin-top: 3%;
-	}
 	
 	.top-sidebar, .middle-sidebar, .bottom-sidebar {
 	width: 94%;
 	margin: 2% 0 2% 0;
 	padding: 2% 3%;
+	}
+	
+	.dropdown, .dropdown-content {
+	width: 100%;
+    text-align: center;
+	position: relative;
 	}
 	
 }
