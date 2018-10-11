@@ -1,6 +1,5 @@
 body {
 	background-image: url("../images/bg.jpeg");
-	background-size: cover;
 	color: Black;
 	font-size: 87.5%;
 	font-family: Arial, 'Lucida Sans Unicode';
@@ -19,6 +18,7 @@ a:link, a:visited {
 a:hover, a:active {
 	background-color: orange;
 	color: white;
+	cursor: pointer;
 }
 
 .body {
@@ -31,6 +31,7 @@ a:hover, a:active {
 	width: 30%;
 	height: auto;
 	margin: 2% 0;
+	outline-style: solid;
 }
 
 .postimg {
@@ -68,6 +69,7 @@ a:hover, a:active {
 
 .dropdown-content {
 	position: absolute;
+	top: 40px;
 	display: none;
 	background-color: gray;
 	border-radius: 5px;
@@ -78,6 +80,7 @@ a:hover, a:active {
 .dropdown:hover .dropdown-content {
 	display: block;
 	z-index: 1;
+	cursor: pointer;
 }
 
 
@@ -91,6 +94,7 @@ a:hover, a:active {
 .mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav a:visited {
 	background-color: orange;
 	text-shadow: none;
+	cursor: pointer;
 }
 
 .mainheader nav ul li a {
@@ -144,6 +148,7 @@ a:hover, a:active {
 
 .top-sidebar a:hover {
 	background-color: white;
+	cursor: pointer;
 }
 
 .middle-sidebar {
