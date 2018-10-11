@@ -184,13 +184,22 @@ a:hover, a:active {
 }
 
 .mainfooter p {
-	width: 92%
+	width: 92%;
 	margin: 2% auto;
 	color: white;
 }
 
 
+.clock {
+	margin: 5% auto;
+    float: right;
+    color: blue;
+    font-size: 35px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
 
+
+}
 
 
 
@@ -262,4 +271,16 @@ a:hover, a:active {
 	position: relative;
 	}
 	
+	.clock {
+	display: none;
+	}
+	
+}
+
+/*MEDIA*/
+@media only screen and (min-width: 600px) and (max-width: 1000px)
+{
+	.clock {
+	display: none;
+	}
 }
